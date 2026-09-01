@@ -1,0 +1,13 @@
+# This file is used to override language statistics
+# Exclude build artifacts
+# Text file normalization
+* text=auto
+
+*.min.css linguist-generated 
+
+*.html linguist-vendored
+docs/** linguist-vendored
+node_modules/* linguist-vendored
+*.png binary
+*.min.js linguist-generated
+src/**/*.ts linguist-detectable
