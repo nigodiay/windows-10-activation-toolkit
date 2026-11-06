@@ -1,0 +1,8 @@
+*.tgz
+.env
+.env.local
+*.log
+coverage/
+.pnpm-store/
+dist/
+.cache/
